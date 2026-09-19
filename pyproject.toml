@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "hello-venus"
+version = "0.1.0"
+description = "A minimal greeting library with CLI, tests, and optional Flask API."
+authors = ["Kiotaka-001 <you@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+ruff = "*"
+pytest = "*"
+flask = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry-core.masonry.api"
